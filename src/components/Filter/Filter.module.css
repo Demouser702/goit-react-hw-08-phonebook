@@ -1,0 +1,9 @@
+.filterListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.filterListItem input {
+  padding: 8px 16px;
+  max-width: 300px;
+}

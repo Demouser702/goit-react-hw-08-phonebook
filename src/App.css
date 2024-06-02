@@ -1,0 +1,20 @@
+body {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 8px;
+}
+.container {
+  background: lightgrey;
+  padding: 16px;
+  max-width: 1300px;
+  margin-left: 20px;
+}

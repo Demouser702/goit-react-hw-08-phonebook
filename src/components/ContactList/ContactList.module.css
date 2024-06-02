@@ -1,0 +1,37 @@
+.contactsList {
+  background: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contactsListItem {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.contactsListItem button {
+  padding: 8px 8px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1.25px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: rgb(119, 115, 115);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.contactsListItem:hover button {
+  background-color: #04aa6d;
+  color: white;
+}
+.contactsListItemLine {
+  margin-left: 20px;
+  display: list-item;
+  list-style-type: circle;
+}
